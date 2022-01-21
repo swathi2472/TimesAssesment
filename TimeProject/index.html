@@ -1,0 +1,79 @@
+<!DocType html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>
+            Times    
+        </title>
+        <link rel="stylesheet" type="text/css" href="./src/Stylesheet/times.css">
+    </head>
+    <body>
+        <!-- <p id="test"></p> -->
+        <div class="container">
+            <div class="menu_content">
+                <div class="col-sm-6">
+                    <img src="./assets/Images/hamburger.png" alt="hamburger" class="hamburger_icon">
+                </div>
+                <div class="col-sm-6">
+                    <img src="./assets/Images/timeLogo.svg" alt="time" class="time_icon">
+                </div> 
+                <div class="col-sm-6">
+                    <p class="heading_first_text">america must change</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="heading_second_text">racism and covid-19</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="heading_third_text">inequality</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="heading_fourth_text">black, disabled and at risk</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="./assets/Images/newsicon.jpg" alt="news" class="newsletter_icon">
+                    <p class="heading_fifth_text">newletter</p>
+                </div> 
+                <div class="col-sm-6">
+                    <img src="./assets/Images/searchicon.png" alt="search" class="search_icon">
+                </div>
+            </div>
+            <hr>
+            <div class="stories_content">
+                    <h1 class="title_decoration_arrow"> latest stories </h1>
+                    <div class="first_userdata" onclick="getStories(1)" >
+                        <div id="sub_data_one">1</div>
+                        <div id="title_one"></div>
+                    </div>
+                    <div class="second_userdata" onclick="getStories(2)">
+                        <div id="sub_data_two">2</div>
+                        <div id="title_two"></div>
+                    </div>
+                    <div class="third_userdata" onclick="getStories(3)">
+                        <div id="sub_data_three">3</div>
+                        <div id="title_three"></div>
+                    </div>
+                    <div class="fourth_userdata" onclick="getStories(4)">
+                        <div id="sub_data_four">4</div>
+                        <div id="title_four"></div>
+                    </div>
+                    <div class="fifth_userdata" onclick="getStories(5)">
+                        <div id="sub_data_five">5</div>
+                        <div id="title_five"></div>
+                    </div>
+            </div>
+            <div class="issues_content">
+                <div class="issue_title">
+                    <h5>Inside the Issue</h5>
+                </div>
+                <div class="image_page">
+                    <img src="./assets/Images/flyover.jpg" alt="flyover" class="issue_image">
+                </div>
+                <div class="issue_letter">
+                    <img src="./assets/Images/oneLast.png" alt="letterchange" class="letter_image">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="./src/Json/timesData.json"></script>
+    <script src="./src/Javascript/first.js"></script>  
+</html>

@@ -1,0 +1,37 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.menu_content{background-color: white;padding: 10px 15px 24px 2px;width: 98%;}
+.menu_content .hamburger_icon{float:left;cursor: pointer;height: auto;width: 33px;padding: 0px 19px 0px 30px;margin: -7px;}
+.menu_content .time_icon{float:left;height: auto;width: 6%;padding: 0px 12px 0px 15px; margin: -3px;}
+.menu_content .heading_first_text, .heading_second_text,.heading_third_text,.heading_fourth_text,.heading_fifth_text{float:left;height: auto;font: 13px sans-serif;margin: 2px;text-transform: uppercase;}
+.menu_content .heading_first_text{font-weight: bold;padding: 0px 0px 0px 120px;}
+.menu_content .heading_second_text{padding-left: 13px;}
+.menu_content .heading_third_text{padding-left: 14px;}
+.menu_content .heading_fourth_text{padding-left: 15px;}
+.menu_content .heading_fifth_text{padding-left: 1px;}
+.menu_content .search_icon{float:left;cursor: pointer;height: auto;width: 4%;width: 2%;margin: -5px;padding-left: 232px;}
+.menu_content .newsletter_icon{float: left;height: auto;width:35px;margin:-9px;padding-left: 30px;}
+
+.stories_content{background-color:#f0f1f2;width: 78%;height: 200px;margin: 24px 146px;}
+.stories_content .title_decoration_arrow:before{content: url("/assets/Images/leftarrow.png");}
+.stories_content .title_decoration_arrow{color:#e90606;font-family: Roboto Condensed,Arial Narrow,arial,sans-serif;font-size: 24px;font-style: normal;margin:2px auto;text-transform: uppercase;line-height: 3em;padding-left: 30px;}
+.stories_content .title_decoration_arrow:after{content: url("/assets/Images/rightarrow.png");}
+
+.stories_content .first_userdata, .second_userdata, .third_userdata,.fourth_userdata,.fifth_userdata{float:left;width: 13%;height: 51%;cursor:pointer;text-align: center;font: 20px sans-serif;font-weight: 700;}
+.stories_content .first_userdata {margin-left:82px;}
+.stories_content .second_userdata{margin-left:  48px;}
+.stories_content .third_userdata{margin-left: 47px;}
+.stories_content .fourth_userdata{margin-left: 57px;}
+.stories_content .fifth_userdata{margin-left: 53px;}
+#sub_data_one, #sub_data_two, #sub_data_three, #sub_data_four,#sub_data_five{text-decoration: underline;text-decoration-color: red;}
+#title_one,#title_two,#title_three, #title_four, #title_five{font-size: 13px;font-family: sans-serif;padding-top: 30px;text-decoration: none !important;}
+
+
+.issues_content{width: 78%;height: 310px;margin:35px 146px;}
+.issues_content .issue_title{font-size: 32px;font-family: Zilla Slab,Lora,georgia,times,serif;font-stretch: normal;font-style:italic;margin: 2px;padding: 30px 0px 0px 420px;}
+.issues_content .image_page .issue_image{width: 72%;height: 171px;margin: 0px;}
+.issues_content .issue_letter .letter_image{width: 20.2%;height: 171px;margin: -201px 0px 18px 837px;}
